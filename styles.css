@@ -1,0 +1,133 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3A3A3A;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+h2 {
+    color: #3A3A3A;
+    border-bottom: 2px solid #3A3A3A;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Estilos de Información Personal */
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personal-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #3A3A3A;
+    object-fit: cover;
+}
+
+.details {
+    line-height: 1.6;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.details strong {
+    color: #555;
+}
+
+/* Estilos de Educación */
+.education-details p {
+    margin: 10px 0;
+}
+
+.education-details strong {
+    color: #555;
+}
+
+/* Estilos de Habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.skills li:hover {
+    background-color: #3A3A3A;
+    color: #fff;
+}
+
+/* Estilos de Experiencia Laboral */
+.job h3 {
+    margin-top: 0;
+    color: #3A3A3A;
+}
+
+.job p, .job ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.job ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.job strong {
+    color: #555;
+}
+
+/* Estilos de Hobbies */
+.hobbies p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+
